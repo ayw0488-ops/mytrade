@@ -21,13 +21,17 @@
             box-shadow: 0 4px 15px rgba(0,0,0,0.3);
         }
 
-        /* 매매일지 작성 버튼 (노란색 포인트) */
+        /* 매매일지 작성 버튼 */
         .btn-write { background-color: #f3ba2f; color: #000; }
         .btn-write:hover { background-color: #ffca42; transform: translateY(-3px); }
 
-        /* 매매일지 목록 버튼 (다크 스타일) */
+        /* 매매일지 목록 버튼 */
         .btn-list { background-color: #1e1e1e; color: #f3ba2f; border: 1px solid #f3ba2f; }
         .btn-list:hover { background-color: #2b2b2b; transform: translateY(-3px); }
+
+        /* 차트 분석 버튼 (새로 추가) */
+        .btn-chart { background-color: #2b2b2b; color: #ffffff; border: 1px solid #444; }
+        .btn-chart:hover { background-color: #383838; transform: translateY(-3px); border-color: #f3ba2f; }
 
         .btn-icon { margin-right: 10px; font-size: 22px; }
     </style>
@@ -47,6 +51,10 @@
         
         <a href="bctlist.html" class="menu-btn btn-list">
             <span class="btn-icon">📂</span> 매매일지 목록
+        </a>
+
+        <a href="chartboard.html" class="menu-btn btn-chart">
+            <span class="btn-icon">📈</span> 차트 분석
         </a>
     </div>
 </div>

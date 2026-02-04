@@ -9,7 +9,8 @@
         .list-container { width: 100%; max-width: 450px; }
         
         .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; }
-        .header h2 { color: #f3ba2f; margin: 0; font-size: 22px; }
+        .header h2 { color: #f3ba2f; margin: 0; font-size: 22px; cursor: pointer; } /* 제목에 커서 포인터 추가 */
+        .header h2 a { color: inherit; text-decoration: none; } /* 링크 스타일 초기화 */
         
         .header-btns { display: flex; gap: 8px; }
 
@@ -57,7 +58,7 @@
 
 <div class="list-container">
     <div class="header">
-        <h2>Trade Archive</h2>
+        <h2><a href="index.html">Trade Archive</a></h2>
         <div class="header-btns">
             <a href="calculator.html?write=true" class="btn-action btn-write">📒 일지 작성</a>
             <a href="calculator.html" class="btn-action">계산기</a>
